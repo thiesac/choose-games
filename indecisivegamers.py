@@ -3,7 +3,11 @@ import random
 
 #Ask how much time the players have
 
-game_length = int(input("Choose one option: [1]We are young and there is nothing left to do today  [2]I´m running out of time and I still have some knitting to do : "))
+game_length = int(input("""
+Choose one option 
+[1]We are young and there is nothing left to do today  
+[2]I´m running out of time and I still have some knitting to do 
+"""))
 
 #Long games function
 if (game_length == 1):
